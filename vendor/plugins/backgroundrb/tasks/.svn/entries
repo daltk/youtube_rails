@@ -1,0 +1,40 @@
+8
+
+dir
+175
+http://svn.devjavu.com/backgroundrb/tags/release-0.2.1/tasks
+http://svn.devjavu.com/backgroundrb
+
+
+
+2006-11-04T21:06:09.698846Z
+137
+skaar@waste.org
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+69d54aea-511f-0410-a924-81c4482807e4
+
+backgroundrb_tasks.rake
+file
+
+
+
+
+2007-05-31T08:10:32.000000Z
+d9d6dde779823cc81b483133b2daaa7e
+2006-11-04T21:06:09.698846Z
+137
+skaar@waste.org
+

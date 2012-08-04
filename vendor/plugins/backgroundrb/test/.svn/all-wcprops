@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/backgroundrb/!svn/ver/164/tags/release-0.2.1/test
+END
+scheduler_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/backgroundrb/!svn/ver/164/tags/release-0.2.1/test/scheduler_test.rb
+END
+test_helper.rb
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/backgroundrb/!svn/ver/164/tags/release-0.2.1/test/test_helper.rb
+END
+backgroundrb_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/backgroundrb/!svn/ver/164/tags/release-0.2.1/test/backgroundrb_test.rb
+END

@@ -1,0 +1,52 @@
+8
+
+dir
+175
+http://svn.devjavu.com/backgroundrb/tags/release-0.2.1/generators/worker/templates
+http://svn.devjavu.com/backgroundrb
+
+
+
+2006-11-01T13:44:37.620582Z
+113
+skaar@waste.org
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+69d54aea-511f-0410-a924-81c4482807e4
+
+unit_test.rb
+file
+
+
+
+
+2007-05-31T08:10:33.000000Z
+4554a16f0be8e3672feba3d34695f4df
+2006-11-01T13:44:37.620582Z
+113
+skaar@waste.org
+
+worker.rb
+file
+
+
+
+
+2007-05-31T08:10:33.000000Z
+c9b81c8154a71cd325b8f7fb1913bf3d
+2006-10-28T15:51:53.270772Z
+90
+skaar@waste.org
+

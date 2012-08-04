@@ -1,0 +1,34 @@
+<div id="tabs">
+    <div class="tab" id="tab_left">Videos</div>
+    <%= link_to 'Upload', new_video_path, :class => 'tab', :id => 'tab_middle' %>
+    <%= link_to 'Queue', queued_videos_path, :class => 'tab', :id => 'tab_right' %>
+</div>
+<br/>
+
+<h1>Edit video</h1>
+
+<%= error_messages_for :video %>
+
+<% form_for(:video, :url => video_path(@video.hashed_name), :html => { :method => :put }) do |f| %>
+  <p>
+    <b>Title</b><br />
+    <%= f.text_field :title %>
+  </p>
+
+  <p>
+    <b>Description</b><br />
+    <%= f.text_area :description %>
+  </p>
+  
+  <p>
+    <b>Tags</b><br/>
+    <%= f.text_field :tag_list %>
+  </p>
+  
+  <p>
+    <%= submit_tag "Update" %>
+  </p>
+<% end %>
+
+<%= link_to 'Show', video_path(@video.hashed_name) %> |
+<%= link_to 'Back', videos_path %>

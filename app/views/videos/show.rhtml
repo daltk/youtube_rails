@@ -1,0 +1,35 @@
+<div id="tabs">
+    <div class="tab" id="tab_left">Videos</div>
+    <%= link_to 'Upload', new_video_path, :class => 'tab', :id => 'tab_middle' %>
+    <%= link_to 'Queue', queued_videos_path, :class => 'tab', :id => 'tab_right' %>
+</div>
+<br/>
+
+<h1><%= link_to h(@video.title), video_path(@video) %></h1>
+
+<% if @video.status_code <= 1 %>
+    This video is pending processing.
+<% elsif @video.status_code == 3 %>
+    This video contains errors!
+<% elsif @video.status_code == 2 %>
+    <div id="player"></div>
+    <script type="text/javascript">
+       var so = new SWFObject("/videoplayer.swf", "myvideo", "320", "285", "8", "#FFF");
+       so.addVariable("file", "/videos/stream/<%= @video.hashed_name %>.flv");
+       so.write("player");
+    </script>
+<% end %>
+
+<p>
+  <%=h @video.description %>
+</p>
+
+<p>
+  <b>Tags: </b>
+  <%=h @video.tag_list %>
+</p>
+
+
+<%= link_to 'Edit', edit_video_path(@video.hashed_name) %> |
+<%= link_to 'Destroy', video_path(@video.hashed_name), :method => :delete, :confirm => "Do you really want to nuke this video?" %> |
+<%= link_to 'Back to index', videos_path %>

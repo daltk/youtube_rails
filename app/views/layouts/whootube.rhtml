@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+    "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" >
+<head>
+    <title>Wh00tube by Nedforce</title>
+    <meta http-equiv="content-type" content="application/xhtml+xml; charset=UTF-8" />
+    <%= stylesheet_link_tag 'whootube' %>
+    <%= javascript_include_tag 'swfobject' %>
+</head>
+<body>
+    <table id="main" cellpadding="0" cellspacing="0">
+        <tr>
+            <td id="shadow_left" rowspan="2">&nbsp;</td>
+            <td id="middle_container">
+                <a href="http://www.nedforce.nl"><img src="/images/nedforce_powered.png" alt="Nedforce powered" id="nedforce" /></a>
+                <img src="/images/wh00tube_logo.png" alt="WhooTube" id="logo" />
+                
+                <%= yield %>
+                
+                </td>
+            <td id="shadow_right" rowspan="2">&nbsp;</td>
+        </tr>
+        <tr>
+            <td id="copyright">
+                <img src="/images/valid-xhtml11.png" alt="Valid XHTML 1.1" height="31" width="88" />
+                <img src="/images/valid-css.png" alt="Valid CSS" height="31" width="88" />
+            </td>
+        </tr>
+    </table>
+</body>
+</html>
+                

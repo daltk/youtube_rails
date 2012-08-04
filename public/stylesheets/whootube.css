@@ -1,0 +1,229 @@
+html { height: 100% }
+body 
+{
+    margin: 0;
+    background-color: rgb(138,0,0);
+    background-image: url('../images/doc_background.png');
+    background-repeat: repeat-x;
+    background-position: top left;
+    text-align: center;
+    height: 100%;
+    font-family: Arial, Sans-Serif;
+}
+img 
+{
+    border: 0px;
+    margin: 0px;
+}
+td
+{
+    vertical-align: top;
+}
+form
+{
+    margin: 0;
+}
+ul 
+{
+    margin: 0;
+    padding-left: 20px;
+}
+li
+{
+    margin-bottom: 4px;
+}
+a 
+{
+    color: rgb(138,0,0);
+    text-decoration: none;
+}
+a:hover
+{
+    text-decoration: underline;
+}
+#main 
+{
+    width: 1000px;
+    margin: auto;
+    height: 100%;
+}
+#shadow_left, #shadow_right
+{
+    width: 100px;
+}
+#shadow_left
+{
+    background-image: url('../images/shadow_left.png');
+    background-position: right;
+}
+#shadow_right
+{
+    background-image: url('../images/shadow_right.png');
+    background-position: left;
+}
+#middle_container
+{
+    background-color: white;
+    padding: 16px;
+    text-align: left;
+}
+#copyright
+{
+    background-color: white;
+    font-size: 10px;
+    font-family: Verdana, Sans-Serif;
+    text-align: right;
+    padding-right: 20px;
+    height: 50px;
+}
+#nedforce
+{
+    float: right;
+    position: relative;
+    left: 16px;
+    top: -16px;
+}
+#logo
+{
+    margin: 10px;
+}
+#tabs
+{
+    height: 30px;
+}
+.tab
+{
+    display: block;
+    float: left;
+    height: 30px;
+    padding-top: 7px;
+    font-size: 20px;
+}
+#tab_left
+{
+    width: 480px;
+    background-image: url('../images/tab_left.png');
+    padding-left: 10px;
+}
+#tabs a
+{
+    color: black;
+    text-decoration: none;
+    text-align: center;
+    background-position: top left;  
+}
+#tabs a:hover
+{
+    text-decoration: underline;
+    background-position: bottom left;
+}
+#tab_middle
+{
+    width: 138px;
+    background-image: url('../images/tab_middle.png');
+}
+#tab_right
+{
+    width: 139px;
+    background-image: url('../images/tab_right.png');   
+}
+#tag_cloud
+{
+    margin-top: 10px;
+    text-align:center;
+    float: right;
+    width: 200px;
+    padding-bottom: 13px;
+    border-bottom: 2px solid rgb(138,0,0);
+}
+#tag_cloud h2
+{
+    font-weight: normal;
+    font-size: 20px;
+    border-bottom: 2px solid rgb(138,0,0);
+    margin-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+#tag_cloud a
+{
+    text-decoration: none;
+    color: rgb(0,0,138);
+}
+#tag_cloud a:hover
+{
+    text-decoration: underline;
+    color: rgb(138,0,0);
+}
+#content
+{
+    padding: 10px;
+    padding-top: 30px;
+    width: 550px;
+}
+a.video_thumb
+{
+    border: 2px solid black;
+    padding: 5px;
+    padding-bottom: 2px;
+    float: left;
+    margin-right: 40px;
+    margin-bottom: 40px;
+}
+a.video_thumb:hover
+{
+    background-color: rgb(188,50,50);
+}
+.formInput
+{
+    display: block;
+    margin-bottom: 20px;
+}
+.formInput label 
+{
+    float: left;
+    width: 120px;
+}
+.formInput input, .formInput textarea
+{
+    width: 248px;
+    border: 2px solid black;
+    font-family: Verdana;
+    font-size: 16px;
+    padding: 3px;
+}
+#upload_button
+{
+    margin-top: 10px;
+    margin-left: 115px;
+}
+#video
+{
+    width: 300px;
+    height: 200px;
+    border: solid 2px black;
+    float: left;
+}
+#options
+{
+    float: left;
+    width: 200px;
+    text-align: center;
+}
+#options a
+{
+    display: block;
+    margin-bottom: 30px;
+}
+
+/* tag styles */
+
+.tag1{
+	font-size: 14px;
+}
+.tag2{
+	font-size: 17px;
+}
+.tag3{
+	font-size: 20px;
+}

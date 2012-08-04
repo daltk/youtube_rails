@@ -1,0 +1,154 @@
+8
+
+dir
+175
+http://svn.devjavu.com/backgroundrb/tags/release-0.2.1
+http://svn.devjavu.com/backgroundrb
+
+
+
+2006-11-29T21:03:24.144155Z
+164
+skaar@waste.org
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+69d54aea-511f-0410-a924-81c4482807e4
+
+test
+dir
+
+log
+dir
+
+LICENSE
+file
+
+
+
+
+2007-05-31T08:10:33.000000Z
+2905b62765136b20111d78242cca40d2
+2006-10-27T03:59:38.246652Z
+85
+skaar@waste.org
+
+Rakefile
+file
+
+
+
+
+2007-05-31T08:10:33.000000Z
+536dfef9d6347364a66deccd7508914c
+2006-11-29T20:22:21.821171Z
+161
+skaar@waste.org
+
+tasks
+dir
+
+CHANGELOG
+file
+
+
+
+
+2007-05-31T08:10:33.000000Z
+b981f1986997e73360a4a82be762bb54
+2006-11-29T21:03:24.144155Z
+164
+skaar@waste.org
+
+misc
+dir
+
+CONTRIBUTORS
+file
+
+
+
+
+2007-05-31T08:10:33.000000Z
+c44125091f66591adf9802033b2c68fd
+2006-11-29T20:22:21.821171Z
+161
+skaar@waste.org
+
+README
+file
+
+
+
+
+2007-05-31T08:10:33.000000Z
+a180628ec9b749976254135bb99b8a0d
+2006-11-29T20:47:13.075091Z
+162
+skaar@waste.org
+
+script
+dir
+
+config
+dir
+
+init.rb
+file
+
+
+
+
+2007-05-31T08:10:33.000000Z
+d264843c8dafd3823d22e024553a5132
+2006-10-10T05:25:28.049797Z
+16
+skaar
+
+TODO
+file
+
+
+
+
+2007-05-31T08:10:33.000000Z
+551967008d013ead3db2813ee1f05149
+2006-11-03T19:54:17.008148Z
+126
+skaar@waste.org
+
+lib
+dir
+
+server
+dir
+
+install.rb
+file
+
+
+
+
+2007-05-31T08:10:33.000000Z
+cbe738c10eba4ae2da8c6859c9723e44
+2006-10-09T17:07:42.465463Z
+9
+skaar
+
+generators
+dir
+
+specs
+dir
+

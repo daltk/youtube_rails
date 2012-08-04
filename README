@@ -1,0 +1,48 @@
+== WhooTube 0.9.2
+
+WhooTube is a proof-of-concept to demonstrate Flash video streaming using Ruby technology.
+It has been developed during a live coding demonstration at the RubyEnRails 2007 conference
+by Roderick van Domburg and Sjoerd Andringa, who are employed at Nedforce.
+
+== Technologies
+
+WhooTube uses the following technologies to make it tick. The version numbers in brackets
+indicate the versions this release has been tested with:
+
+ * Ruby (1.8.6)
+ * Ruby on Rails (1.2.3)
+ * BackgrounDRb (0.2.1)
+ * ffmpeg (r9102)
+ * FLVTool2 (1.0.6)
+ * acts_as_taggable_on_steroids (2007-04-23)
+
+== Deployment notes
+
+ * Edit lib/workers/video_worker.rb to specify the location to ffmpeg and FLVTool2.
+
+ * Run script/backgroundrb {run|start} to fire up the BackgrounDRb server.
+
+ * BackgrounDRb currently does not offer Windows support, and so WhooTube doesn't either.
+
+ * FLVTool2 is a RubyGem. It has been packaged into the vendor/plugins directory, but you
+   may need to manually install it using RubyGems depending on your platform.
+ 
+== Jumping board
+
+The code contained herein is for demonstration purposes only and not deemed fit for any
+purpose. While it's a great jumping board to start developing video-enabled Rails apps,
+there's pieces in here that are not DRY, fail-safe, or otherwise complete.
+
+If you're looking to put this code to commercial use, then we warmly invite you to get in
+touch with Nedforce. We've got a proven solution that not only saves you precious development
+time, but also gives you:
+
+ * Vastly improved exception handling
+ * Automated, schedulable maintenance utilities for cleanup and error correction
+ * A deployment scenario that's tweaked for scalability
+ * Optional authorization that's compatible with your current authentication
+ * Optional permalinking and clean URLs for search engine optimization
+
+== Contact
+
+Nedforce <http://www.nedforce.nl>

@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/backgroundrb/!svn/ver/164/tags/release-0.2.1/specs/data/server/workers
+END
+rss_worker.rb
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/backgroundrb/!svn/ver/164/tags/release-0.2.1/specs/data/server/workers/rss_worker.rb
+END
+do_work_with_arg_worker.rb
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/backgroundrb/!svn/ver/164/tags/release-0.2.1/specs/data/server/workers/do_work_with_arg_worker.rb
+END
+simple_worker.rb
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/backgroundrb/!svn/ver/164/tags/release-0.2.1/specs/data/server/workers/simple_worker.rb
+END

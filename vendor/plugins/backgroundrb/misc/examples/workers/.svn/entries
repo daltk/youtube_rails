@@ -1,0 +1,52 @@
+8
+
+dir
+175
+http://svn.devjavu.com/backgroundrb/tags/release-0.2.1/misc/examples/workers
+http://svn.devjavu.com/backgroundrb
+
+
+
+2006-11-01T20:32:06.516378Z
+118
+skaar@waste.org
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+69d54aea-511f-0410-a924-81c4482807e4
+
+rails_worker.rb
+file
+
+
+
+
+2007-05-31T08:10:33.000000Z
+8c572439c74ed19b93c241870e05faf2
+2006-10-11T18:47:37.781271Z
+20
+skaar
+
+sample_worker.rb
+file
+
+
+
+
+2007-05-31T08:10:33.000000Z
+e89e32b8ad84cf735f60fdfcc69c85d8
+2006-10-25T16:07:48.335090Z
+79
+skaar
+

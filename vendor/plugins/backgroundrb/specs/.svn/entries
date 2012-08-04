@@ -1,0 +1,49 @@
+8
+
+dir
+175
+http://svn.devjavu.com/backgroundrb/tags/release-0.2.1/specs
+http://svn.devjavu.com/backgroundrb
+
+
+
+2006-11-22T21:59:27.619244Z
+159
+skaar@waste.org
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+69d54aea-511f-0410-a924-81c4482807e4
+
+server
+dir
+
+data
+dir
+
+misc
+dir
+
+spec_helper.rb
+file
+
+
+
+
+2007-05-31T08:10:33.000000Z
+e9a290105ff33beb4747cbed46de18bd
+2006-11-03T18:24:39.759405Z
+125
+skaar@waste.org
+

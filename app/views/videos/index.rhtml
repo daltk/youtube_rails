@@ -1,0 +1,23 @@
+<div id="tabs">
+    <div class="tab" id="tab_left"><%= link_to 'Videos', videos_path %></div>
+    <%= link_to 'Upload', new_video_path, :class => 'tab', :id => 'tab_middle' %>
+    <%= link_to 'Queue', queued_videos_path, :class => 'tab', :id => 'tab_right' %>
+</div>
+<br/>
+
+<div id="tag_cloud">
+    <h2>Tags</h2>
+    <% tag_cloud @tags, %w(tag1 tag2 tag3) do |tag, class_name| %>
+        <%= link_to tag, {:tag => tag}, :class => class_name %>
+    <% end %>
+</div>
+
+<div id="content">
+    <% if @videos.empty? %>
+        Sorry buddy, no videos here. You might want to <%= link_to "upload", new_video_path %> one.
+     <% else %>
+        <% @videos.each do |v| %>
+            <%= link_to("<img src=\"#{url_for :action => :thumbnail, :id => v.hashed_name}\" alt=\"#{h(v.title)}\" />", video_path(v.hashed_name), :class => 'video_thumb') %>
+        <% end %>
+     <% end %>
+</div>

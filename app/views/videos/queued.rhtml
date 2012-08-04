@@ -1,0 +1,18 @@
+<div id="tabs">
+    <div class="tab" id="tab_left">Queue</div>
+    <%= link_to 'Videos', videos_path, :class => 'tab', :id => 'tab_middle' %>
+    <%= link_to 'Upload', new_video_path, :class => 'tab', :id => 'tab_right' %>
+</div>
+<br/>
+
+<div id="content">
+    <% if @videos.empty? %>
+        There are no queued videos at the moment.
+    <% else %>
+        <ul>
+        <% @videos.each do |v| %>
+            <%= content_tag('li', h(v.title)) %>
+        <% end %>
+        </ul>
+    <% end %>
+</div>

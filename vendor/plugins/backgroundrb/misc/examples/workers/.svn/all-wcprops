@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/backgroundrb/!svn/ver/164/tags/release-0.2.1/misc/examples/workers
+END
+rails_worker.rb
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/backgroundrb/!svn/ver/164/tags/release-0.2.1/misc/examples/workers/rails_worker.rb
+END
+sample_worker.rb
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/backgroundrb/!svn/ver/164/tags/release-0.2.1/misc/examples/workers/sample_worker.rb
+END
